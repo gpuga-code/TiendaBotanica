@@ -1,8 +1,8 @@
-# 🌱 Tienda de Plantas — Django
+#  Tienda de Plantas — Django
 
 Aplicación web de e-commerce para la venta de plantas, desarrollada con **Django** y **Django REST Framework**. Incluye un sitio web con catálogo de productos, gestión de usuarios y carrito de compras, además de una **API REST** con autenticación por token para el manejo de productos.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### Sitio web
 - **Catálogo de plantas** con categorías, precio, stock e imagen de cada producto.
@@ -20,7 +20,7 @@ Aplicación web de e-commerce para la venta de plantas, desarrollada con **Djang
 ### Panel de administración
 - Gestión de `Categoria`, `Planta` y `Usuario` desde el admin de Django (`/admin`).
 
-## 🏗️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 tienda/           # Configuración principal del proyecto (settings, urls)
@@ -29,7 +29,7 @@ api_app/          # API REST (endpoints de plantas y login por token)
 media/            # Imágenes de productos subidas
 ```
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Django 4.0**
 - **Django REST Framework** (API + autenticación por token)
@@ -37,7 +37,7 @@ media/            # Imágenes de productos subidas
 - **Pillow** (manejo de imágenes)
 - **Bootstrap 5** (interfaz)
 
-## 📋 Requisitos previos
+## Requisitos previos
 
 - Python 3.8+
 - Una base de datos Oracle accesible (local o remota)
@@ -84,7 +84,7 @@ media/            # Imágenes de productos subidas
    python manage.py runserver
    ```
 
-## 🔑 Variables de entorno
+## Variables de entorno
 
 Este proyecto no incluye ninguna credencial en el código — todas se cargan desde un archivo `.env` (ver `.env.example`):
 
@@ -99,7 +99,7 @@ Este proyecto no incluye ninguna credencial en el código — todas se cargan de
 
 > ⚠️ El archivo `.env` nunca debe subirse al repositorio (ya está excluido en `.gitignore`).
 
-## 🚧 Estado del proyecto / próximos pasos
+## Estado del proyecto / próximos pasos
 
 Este proyecto está en desarrollo activo. Algunas áreas pendientes de completar:
 
